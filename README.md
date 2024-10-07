@@ -1,18 +1,16 @@
-# readme
-
 # MeetingApp
 
 MeetingApp is a web application built with **ASP.NET Core MVC** designed to help users organize and manage meetings. The application allows users to schedule meetings, view meeting details, and see a list of all upcoming meetings. It follows a **Model-View-Controller (MVC) architecture**, ensuring a clean separation of concerns.
 
 ## Table of Contents
 
-- [Features](https://www.notion.so/readme-1183b92b857a802daefbe3159a9fd934?pvs=21)
-- [Technologies](https://www.notion.so/readme-1183b92b857a802daefbe3159a9fd934?pvs=21)
-- [Project Structure](https://www.notion.so/readme-1183b92b857a802daefbe3159a9fd934?pvs=21)
-- [Installation](https://www.notion.so/readme-1183b92b857a802daefbe3159a9fd934?pvs=21)
-- [Usage](https://www.notion.so/readme-1183b92b857a802daefbe3159a9fd934?pvs=21)
-- [Contributing](https://www.notion.so/readme-1183b92b857a802daefbe3159a9fd934?pvs=21)
-- [License](https://www.notion.so/readme-1183b92b857a802daefbe3159a9fd934?pvs=21)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Features
 
