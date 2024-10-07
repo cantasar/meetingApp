@@ -4,6 +4,9 @@ builder.Services.AddControllersWithViews(); //MVC
 
 var app = builder.Build();
 
+app.UseStaticFiles();
+app.UseRouting();
+
 //controller/action/id
 // app.MapDefaultControllerRoute();
 

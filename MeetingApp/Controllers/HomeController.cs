@@ -1,3 +1,4 @@
+using MeetingApp.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MeetingApp.Controllers
@@ -5,9 +6,9 @@ namespace MeetingApp.Controllers
     public class HomeController : Controller
     {
         // GET
-        public string Index() 
+        public IActionResult Index(Repository repository)
         {
-            return "Home/Index";
+            return View(model: repository);
         }
     }    
 }

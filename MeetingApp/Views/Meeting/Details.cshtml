@@ -1,0 +1,32 @@
+@using System.Net.Mime
+@model UserInfo
+@{
+    ViewBag.Title = "Details";
+    var className = @Model.WillAttend == true ? "success" : "danger";
+}
+
+<main class="text-center">
+    <h1 class="h4">Details</h1>
+    <hr>
+    <br>
+
+    <p>
+        <span class="alert alert-@className">
+            @if (Model.WillAttend == true)
+            {
+                <text>Attending</text>
+            }
+            else
+            {
+                <text > Not Attending </text>
+            }
+
+        </span>
+    </p>
+    <br>
+
+    <p>Name: @Model.Name</p>
+    <p>Email: @Model.Email</p>
+    <p>Phone: @Model.Phone</p>
+    <a asp-controller="Meeting" asp-action="List " class="btn btn-outline-@className">AttendeeList</a>
+</main>

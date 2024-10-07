@@ -1,0 +1,21 @@
+@model Repository
+@{
+    ViewBag.Title = "Homepage";
+    Layout = "_LayoutHomePage";
+}
+
+<main class="text-center">
+    
+<h1 class="h4">Hello 👋</h1>
+<p>Please indicate your Meeting Participant status</p>
+
+<div class="card my-2">
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Location: @Repository.getLocation() </li>
+        <li class="list-group-item">Start Time: @Repository.getStartDate()</li>
+        <li class="list-group-item">@Repository.getNumberOfMeetings() Attendees</li>
+    </ul>
+</div>
+
+<a asp-controller="Meeting" asp-action="Apply" class="btn btn-sm btn-outline-primary">Apply now</a>
+</main>
